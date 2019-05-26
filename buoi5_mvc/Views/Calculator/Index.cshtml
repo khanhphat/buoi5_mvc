@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Máy tính cá nhân</h2>
+<i>Gửi tới Controller = "Calculator" và action = "Calculator"
+    để xử lý</i>
+
+<form asp-controller="Calculator" asp-action="Calculate">
+    <input name="A" placeholder="số thứ nhất" value="@ViewBag.A"/>
+    <select name="pheptoan">
+        <option value="+">Cộng</option>
+        <option value="-">trừ</option>
+        <option value="*">Nhân</option>
+        <option value="/">Chia</option>
+        <option value="^">Mũ</option>
+        <option value="%">Modulo</option>
+    </select>
+    <input name="B" placeholder="Số thứ hai" value="@ViewBag.B"/>
+    <button>Tính</button>
+    <span class="text-danger">@ViewBag.KQ</span>
+</form>
+
