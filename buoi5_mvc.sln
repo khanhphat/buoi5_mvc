@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buoi5_mvc", "buoi5_mvc\buoi5_mvc.csproj", "{17D00B1E-B964-45AD-9405-876217474466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "buoi5_mvc", "buoi5_mvc\buoi5_mvc.csproj", "{17D00B1E-B964-45AD-9405-876217474466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi6_MVC", "..\buoi6_mvc_tieptheo\Buoi6_MVC\Buoi6_MVC.csproj", "{E873A216-DA27-473B-8BC6-BD2207512EE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{17D00B1E-B964-45AD-9405-876217474466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D00B1E-B964-45AD-9405-876217474466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D00B1E-B964-45AD-9405-876217474466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E873A216-DA27-473B-8BC6-BD2207512EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E873A216-DA27-473B-8BC6-BD2207512EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E873A216-DA27-473B-8BC6-BD2207512EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E873A216-DA27-473B-8BC6-BD2207512EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
